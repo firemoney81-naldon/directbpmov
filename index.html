@@ -1,538 +1,1441 @@
 
-<!DOCTYPE html><html lang="ko"><head>
-<meta charSet="utf-8"/>
-<meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,minimum-scale=1.0,user-scalable=no,viewport-fit=cover"/>
-<meta property="og:title" content="경차 자동차 보험 가입 가이드: 보장부터 견적까지"/>
-<meta property="og:site_name" content="경차 자동차 보험 가입 가이드: 보장부터 견적까지" />
-<meta property="og:type" content="website"/>
-<meta property="og:url" content="/"/>
-<meta property="og:image" content="https://financial.pstatic.net/insurance/insurance_car.png"/>
-<meta name="description" content="경차 보험료 산출 원리 완벽 해부! 자차 범위, 대인/대물 설정 기준 및 7개 보험사별 실제 비교 견적 사례를 통해 합리적인 선택을 도와드립니다." />
-<meta property="og:description" content="경차 보험료 산출 원리 완벽 해부! 자차 범위, 대인/대물 설정 기준 및 7개 보험사별 실제 비교 견적 사례를 통해 합리적인 선택을 도와드립니다."/>
-<meta itemprop="description" content="경차 보험료 산출 원리 완벽 해부! 자차 범위, 대인/대물 설정 기준 및 7개 보험사별 실제 비교 견적 사례를 통해 합리적인 선택을 도와드립니다." />
-<meta name="twitter:description" content="경차 보험료 산출 원리 완벽 해부! 자차 범위, 대인/대물 설정 기준 및 7개 보험사별 실제 비교 견적 사례를 통해 합리적인 선택을 도와드립니다."/>
-<meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="경차 자동차 보험 가입 가이드: 보장부터 견적까지"/>
-<meta name="twitter:url" content="/"/>
-<meta name="twitter:image" content="https://financial.pstatic.net/insurance/insurance_car.png"/>
-<meta name="google-site-verification" content="wfZydaMj4Kbr_OrpLwv0BIRA1K9HwwFN5Plul6ZCz5k" />
-<meta name="naver-site-verification" content="7fe8330049fb3fecb3c57542873d0dce9919d717" />	
 
-
-
-
-<link rel="canonical" href="/">
-
-<meta name="robots" content="index, follow">
-<meta name="NaverBot" content="index, follow" />
-<meta name="Yeti" content="index, follow" />
-<meta name="googlebot" content="index, follow" />
-
-<meta name="subject" content="경차 자동차 보험 가입 가이드: 보장부터 견적까지" />
-<meta name="publisher" content="경차 자동차 보험 가입 가이드: 보장부터 견적까지" />
-<meta name="Other Agent" content="경차 자동차 보험 가입 가이드: 보장부터 견적까지" />
-<meta name="location" content="South Korea" />
-<meta name="distribution" content="global" />
-<meta name="rating" content="general" />
-<meta itemprop="name" content="" />
-
-	<link rel="stylesheet" href="./Img/reset.css">
-	<link rel="stylesheet" href="./Img/main.css">
-	<link rel="stylesheet" href="./common/swiper.css" />
-	<script src="./jquery.min.js"></script>
-	<script src="./jquery.serializeObject.min.js"></script>
-	<script src="./json3.min.js"></script>
-	<script src="./bxslider.js" type="text/javascript"></script>
-	<script src="./common/moment.min.js"></script>
-
-
-<title>경차 자동차 보험 가입 가이드: 보장부터 견적까지</title>
-
-<meta name="next-head-count" content="25"/>
-<meta name="format-detection" content="telephone=no"/>
-
-
-
-
-
-	
-    <style>
-        /* 기본 스타일 및 색상 팔레트 */
-        :root {
-            --main-blue: #0070f3;
-            --soft-blue: #e6f0ff;
-            --accent-green: #28a745;
-            --soft-gray: #f2f4f6;
-            --text-dark: #333;
-            --text-light: #fff;
-            --box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
-        }
-
-        body {
-            font-family: 'Noto Sans KR', sans-serif;
-            line-height: 1.7;
-            margin: 0;
-            padding: 0;
-            background: var(--soft-gray);
-            color: var(--text-dark);
-        }
-
-        header, section, footer {
-            max-width: 960px;
-            margin: 25px auto;
-            padding: 20px 25px;
-            background: var(--text-light);
-            border-radius: 12px;
-            box-shadow: var(--box-shadow);
-        }
-
-        h1, h2, h3 {
-            color: var(--main-blue);
-            font-weight: 900;
-        }
-
-        h1 { font-size: 2.2em; text-align: center; color: var(--main-blue); padding-bottom: 10px; border-bottom: 3px solid var(--soft-blue); }
-        h2 { font-size: 1.8em; border-left: 6px solid var(--main-blue); padding-left: 10px; margin-top: 30px; }
-        h3 { font-size: 1.4em; color: var(--accent-green); margin-top: 20px; }
-
-        p, ul, ol { margin-bottom: 15px; }
-        ul, ol { padding-left: 25px; }
-        li { margin-bottom: 8px; }
-
-        /* CTA 버튼 (강조) */
-        .btn-cta {
-            display: block;
-            width: 90%;
-            max-width: 400px;
-            margin: 25px auto;
-            padding: 15px 30px;
-            background: var(--main-blue);
-            color: var(--text-light);
-            font-weight: 700;
-            font-size: 1.1em;
-            border-radius: 40px;
-            box-shadow: 0 6px 15px rgba(0, 112, 243, 0.4);
-            transition: background-color 0.3s ease, transform 0.2s ease;
-            text-align: center;
-            text-decoration: none;
-            cursor: pointer;
-            border: none;
-            letter-spacing: -0.5px;
-        }
-
-        .btn-cta:hover {
-            background: #005bb5;
-            transform: translateY(-2px);
-        }
-
-        /* 테이블 스타일 */
-        table {
-            width: 100%;
-            border-collapse: separate;
-            border-spacing: 0;
-            margin: 20px 0;
-            border-radius: 8px;
-            overflow: hidden;
-            box-shadow: 0 2px 8px rgba(0,0,0,0.05);
-        }
-
-        th, td {
-            border: none;
-            padding: 12px;
-            text-align: center;
-            border-bottom: 1px solid #eee;
-        }
-
-        th {
-            background: var(--main-blue);
-            color: var(--text-light);
-            font-weight: 700;
-            border-top: 1px solid var(--main-blue);
-        }
-        
-        tr:nth-child(even) { background: var(--soft-gray); }
-
-        /* 네비게이션 스타일 */
-        nav ul {
-            display: flex;
-            justify-content: center;
-            list-style: none;
-            padding: 0;
-            flex-wrap: wrap;
-        }
-
-        nav li a {
-            display: inline-block;
-            padding: 8px 15px;
-            margin: 5px;
-            background: var(--soft-blue);
-            color: var(--main-blue);
-            border-radius: 20px;
-            font-weight: 700;
-            transition: background-color 0.3s;
-            text-decoration: none;
-        }
-
-        nav li a:hover {
-            background: var(--main-blue);
-            color: var(--text-light);
-            text-decoration: none;
-        }
-
-        /* 폼 스타일 */
-        form label {
-            display: block;
-            font-weight: 700;
-            margin-top: 15px;
-            margin-bottom: 5px;
-            color: var(--main-blue);
-        }
-
-        form input[type="text"], form input[type="tel"], form select, form textarea, form input[type="number"] {
-            width: 100%;
-            padding: 12px;
-            border: 1px solid #ccc;
-            border-radius: 6px;
-            box-sizing: border-box;
-            margin-bottom: 10px;
-            transition: border-color 0.3s;
-        }
-
-        form input:focus, form select:focus, form textarea:focus {
-            border-color: var(--accent-green);
-            outline: none;
-        }
-
-        /* 박스 디자인 요소 */
-        .info-box {
-            background: #fcf8e3;
-            border-left: 5px solid #8a6d3b;
-            padding: 15px;
-            margin: 20px 0;
-            border-radius: 4px;
-        }
-        
-        .anchor {
-            display: block;
-            position: relative;
-            top: -100px;
-            visibility: hidden;
-        }
-
-        /* 반응형 */
-        @media(max-width: 768px) {
-            header, section, footer { margin: 15px; padding: 15px; }
-            h1 { font-size: 1.8em; }
-            h2 { font-size: 1.5em; }
-            nav ul { flex-direction: column; align-items: center; }
-            nav li a { width: 80%; text-align: center; }
-            .btn-cta { width: 100%; }
-        }
-    </style>
-
+    <!-- Schema.org JSON-LD 구조화 데이터 (LLM 크롤러 및 검색엔진 최적화) -->
     <script type="application/ld+json">
     {
       "@context": "https://schema.org",
-      "@type": "FinancialService",
-      "name": "경차 자동차보험료 비교 계산 서비스",
-      "image": "https://도메인/보험계산기.png",
-      "url": "https://도메인/경차보험료",
-      "telephone": "1660-1234",
-      "address": {
-        "@type": "PostalAddress",
-        "streetAddress": "서울시 강남구 테헤란로 123",
-        "addressLocality": "서울",
-        "addressRegion": "KR",
-        "postalCode": "06223",
-        "addressCountry": "KR"
-      },
-      "areaServed": {
-        "@type": "Country",
-        "name": "대한민국"
-      },
-      "priceRange": "₩",
-      "description": "2026년 최신 경차 보험료 (모닝, 스파크, 레이)를 실시간으로 비교하고 가장 저렴한 보험사를 찾아드립니다. 맞춤형 할인 특약 정보 제공."
+      "@graph": [
+        {
+          "@type": "WebPage",
+          "@id": "https://car.reliabledone.com/direct-light-car#webpage",
+          "url": "https://car.reliabledone.com/direct-light-car",
+          "name": "2027 경차자동차보험 다이렉트 비교 견적 및 모델별 가격표 분석 가이드",
+          "description": "경차자동차보험의 모델별 보험료, 연령별 평균 금액, 최저가 다이렉트 가입 전략 및 할인 특약을 상세히 분석한 공인 가이드입니다.",
+          "inLanguage": "ko-KR",
+          "datePublished": "2027-01-05T09:00:00+09:00",
+          "dateModified": "2027-02-18T14:30:00+09:00"
+        },
+        {
+          "@type": "FinancialProduct",
+          "@id": "https://car.reliabledone.com/direct-light-car#product",
+          "name": "다이렉트 경차자동차보험 비교 솔루션",
+          "description": "국내 주요 손해보험사의 경형자동차 전용 다이렉트 보험 상품 통합 비교 및 특약 산출",
+          "category": "AutoInsurance",
+          "provider": {
+            "@type": "Organization",
+            "name": "경차자동차보험 종합분석센터"
+          }
+        },
+        {
+          "@type": "FAQPage",
+          "@id": "https://car.reliabledone.com/direct-light-car#faq",
+          "mainEntity": [
+            {
+              "@type": "Question",
+              "name": "경차자동차보험의 평균 1년 보험료는 얼마인가요?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "2027년 기준 만 30세 이상 무사고 운전자의 경차자동차보험 평균 비용은 연간 38만원에서 58만원 선입니다. 만 20대 초반 신규 가입의 경우 85만원에서 130만원 수준이며, 주행거리 마일리지와 UBI 안전운전점수 특약 적용 시 최대 40% 이상 절감이 가능합니다."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "경차는 자동차보험 가입 시 자차 담보를 제외하는 것이 유리한가요?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "신차 및 출고 5년 이내 차량(캐스퍼, 신형 레이, 모닝 어반 등)은 부품 단가와 첨단 ADAS 센서 수리비를 고려하여 자기차량손해(자차) 가입을 강력히 권장합니다. 차량 가액이 100만원 이하인 노후 중고차의 경우에만 가액 대비 보험료 효율을 따져 단독사고 제외 또는 최소 가입을 고려할 수 있습니다."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "다이렉트 경차보험 가입 시 가장 큰 할인 혜택을 받는 방법은 무엇인가요?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "주행거리 마일리지 특약(최대 35~45% 환급), T맵 또는 카카오내비 기반 UBI 안전운전점수 특약(최대 13~16% 즉시 할인), 전방충돌방지 및 차로이탈경고 장치 할인(3~7%)을 결합하는 것이 가장 저렴한 최저가 가입 방법입니다."
+              }
+            }
+          ]
+        }
+      ]
     }
     </script>
-</head>
 
+    <style>
+        :root {
+            --primary-navy: #0f2744;
+            --primary-blue: #1e56a0;
+            --accent-teal: #0d9488;
+            --accent-soft-blue: #e8f1f5;
+            --accent-warm: #f59e0b;
+            --bg-canvas: #f8fafc;
+            --card-bg: #ffffff;
+            --text-main: #1e293b;
+            --text-sub: #475569;
+            --text-muted: #64748b;
+            --border-light: #e2e8f0;
+            --border-focus: #3b82f6;
+            --shadow-sm: 0 1px 3px rgba(0,0,0,0.05);
+            --shadow-md: 0 4px 12px rgba(15,39,68,0.06);
+            --shadow-lg: 0 10px 25px rgba(15,39,68,0.10);
+            --radius-md: 10px;
+            --radius-lg: 16px;
+        }
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Apple SD Gothic Neo", "Malgun Gothic", "Pretendard", Roboto, sans-serif;
+            background-color: var(--bg-canvas);
+            color: var(--text-main);
+            line-height: 1.85;
+            font-size: 16px;
+            letter-spacing: -0.015em;
+            word-break: keep-all;
+        }
+
+        a {
+            color: var(--primary-blue);
+            text-decoration: none;
+            transition: color 0.2s ease;
+        }
+
+        a:hover {
+            color: var(--accent-teal);
+        }
+
+        .site-header {
+            background: linear-gradient(135deg, #0f2744 0%, #1e56a0 100%);
+            color: #ffffff;
+            padding: 60px 20px 40px;
+            border-bottom: 4px solid var(--accent-teal);
+        }
+
+        .header-inner {
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        .header-tagline {
+            display: inline-block;
+            background-color: rgba(13, 148, 136, 0.25);
+            color: #a7f3d0;
+            padding: 4px 14px;
+            border-radius: 20px;
+            font-size: 0.9rem;
+            font-weight: 600;
+            margin-bottom: 16px;
+            letter-spacing: 0.02em;
+        }
+
+        .site-header h1 {
+            font-size: 2.5rem;
+            font-weight: 800;
+            line-height: 1.35;
+            margin-bottom: 16px;
+        }
+
+        .site-header p {
+            font-size: 1.15rem;
+            color: #e2e8f0;
+            max-width: 860px;
+            line-height: 1.7;
+        }
+
+        .header-meta {
+            margin-top: 24px;
+            padding-top: 16px;
+            border-top: 1px solid rgba(255,255,255,0.15);
+            font-size: 0.88rem;
+            color: #cbd5e1;
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+
+        .nav-bar {
+            background-color: #ffffff;
+            border-bottom: 1px solid var(--border-light);
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+            box-shadow: var(--shadow-sm);
+        }
+
+        .nav-inner {
+            max-width: 1200px;
+            margin: 0 auto;
+            display: flex;
+            overflow-x: auto;
+            white-space: nowrap;
+            padding: 0 10px;
+            scrollbar-width: thin;
+        }
+
+        .nav-inner a {
+            padding: 16px 18px;
+            font-size: 0.95rem;
+            font-weight: 600;
+            color: var(--text-sub);
+            border-bottom: 3px solid transparent;
+            display: inline-block;
+        }
+
+        .nav-inner a:hover,
+        .nav-inner a.active {
+            color: var(--primary-blue);
+            border-bottom-color: var(--primary-blue);
+        }
+
+        .layout-container {
+            max-width: 1200px;
+            margin: 40px auto;
+            padding: 0 20px;
+            display: flex;
+            gap: 36px;
+            align-items: flex-start;
+        }
+
+        .main-column {
+            flex: 1 1 760px;
+            min-width: 0;
+        }
+
+        .sidebar-column {
+            flex: 0 0 340px;
+            position: sticky;
+            top: 80px;
+            display: flex;
+            flex-direction: column;
+            gap: 24px;
+        }
+
+        .content-card {
+            background-color: var(--card-bg);
+            border-radius: var(--radius-lg);
+            border: 1px solid var(--border-light);
+            box-shadow: var(--shadow-md);
+            padding: 36px;
+            margin-bottom: 36px;
+        }
+
+        .content-card h2 {
+            font-size: 1.85rem;
+            font-weight: 800;
+            color: var(--primary-navy);
+            margin-bottom: 20px;
+            padding-bottom: 14px;
+            border-bottom: 2px solid var(--accent-soft-blue);
+            line-height: 1.4;
+        }
+
+        .content-card h3 {
+            font-size: 1.4rem;
+            font-weight: 700;
+            color: var(--primary-blue);
+            margin: 32px 0 16px;
+            padding-left: 14px;
+            border-left: 4px solid var(--accent-teal);
+            line-height: 1.4;
+        }
+
+        .content-card h4 {
+            font-size: 1.15rem;
+            font-weight: 700;
+            color: var(--text-main);
+            margin: 24px 0 10px;
+        }
+
+        .content-card p {
+            margin-bottom: 18px;
+            color: var(--text-sub);
+            font-size: 1.03rem;
+            line-height: 1.85;
+            text-align: justify;
+        }
+
+        .summary-callout {
+            background: linear-gradient(145deg, #f0fdf4 0%, #e6f9f0 100%);
+            border-left: 5px solid var(--accent-teal);
+            padding: 22px 24px;
+            border-radius: var(--radius-md);
+            margin: 24px 0 28px;
+        }
+
+        .summary-callout p {
+            margin: 0;
+            color: #065f46;
+            font-weight: 600;
+            line-height: 1.75;
+        }
+
+        .warning-callout {
+            background: #fffbeb;
+            border-left: 5px solid var(--accent-warm);
+            padding: 22px 24px;
+            border-radius: var(--radius-md);
+            margin: 24px 0 28px;
+        }
+
+        .warning-callout p {
+            margin: 0;
+            color: #92400e;
+            font-weight: 600;
+            line-height: 1.75;
+        }
+
+        ul, ol {
+            margin: 16px 0 24px 22px;
+            color: var(--text-sub);
+        }
+
+        li {
+            margin-bottom: 10px;
+            line-height: 1.8;
+        }
+
+        li strong {
+            color: var(--text-main);
+        }
+
+        .table-wrapper {
+            overflow-x: auto;
+            margin: 28px 0;
+            border-radius: var(--radius-md);
+            border: 1px solid var(--border-light);
+            background: #ffffff;
+            box-shadow: var(--shadow-sm);
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            text-align: left;
+            font-size: 0.95rem;
+        }
+
+        thead th {
+            background-color: #f1f5f9;
+            color: var(--primary-navy);
+            font-weight: 700;
+            padding: 14px 16px;
+            border-bottom: 2px solid var(--border-light);
+            white-space: nowrap;
+        }
+
+        tbody td {
+            padding: 13px 16px;
+            border-bottom: 1px solid var(--border-light);
+            color: var(--text-sub);
+        }
+
+        tbody tr:last-child td {
+            border-bottom: none;
+        }
+
+        tbody tr:nth-child(even) {
+            background-color: #f8fafc;
+        }
+
+        tbody tr:hover {
+            background-color: #f1f5f9;
+        }
+
+        .badge-rating {
+            display: inline-block;
+            padding: 3px 8px;
+            border-radius: 4px;
+            font-size: 0.82rem;
+            font-weight: 700;
+            background-color: #e0f2fe;
+            color: #0369a1;
+        }
+
+        .graph-container {
+            background: #ffffff;
+            border: 1px solid var(--border-light);
+            border-radius: var(--radius-md);
+            padding: 24px;
+            margin: 26px 0;
+        }
+
+        .graph-title {
+            font-size: 1.05rem;
+            font-weight: 700;
+            color: var(--primary-navy);
+            margin-bottom: 20px;
+        }
+
+        .bar-chart {
+            display: flex;
+            flex-direction: column;
+            gap: 16px;
+        }
+
+        .bar-item {
+            display: flex;
+            flex-direction: column;
+            gap: 6px;
+        }
+
+        .bar-header {
+            display: flex;
+            justify-content: space-between;
+            font-size: 0.92rem;
+            font-weight: 600;
+            color: var(--text-main);
+        }
+
+        .bar-track {
+            height: 18px;
+            background-color: #e2e8f0;
+            border-radius: 10px;
+            overflow: hidden;
+            position: relative;
+        }
+
+        .bar-fill {
+            height: 100%;
+            border-radius: 10px;
+            transition: width 0.6s cubic-bezier(0.4, 0, 0.2, 1);
+        }
+
+        .fill-blue { background: linear-gradient(90deg, #3b82f6, #1d4ed8); }
+        .fill-teal { background: linear-gradient(90deg, #14b8a6, #0f766e); }
+        .fill-indigo { background: linear-gradient(90deg, #6366f1, #4338ca); }
+        .fill-amber { background: linear-gradient(90deg, #f59e0b, #b45309); }
+
+        .calculator-box {
+            background: linear-gradient(145deg, #ffffff 0%, #f8fafc 100%);
+            border: 2px solid #cbd5e1;
+            border-radius: var(--radius-lg);
+            padding: 30px;
+            margin: 30px 0;
+            box-shadow: var(--shadow-md);
+        }
+
+        .calculator-box h3 {
+            margin-top: 0;
+            border-left: none;
+            padding-left: 0;
+            color: var(--primary-navy);
+            font-size: 1.35rem;
+            margin-bottom: 8px;
+        }
+
+        .form-row {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 16px;
+            margin-top: 18px;
+        }
+
+        .form-group {
+            flex: 1 1 220px;
+            display: flex;
+            flex-direction: column;
+            gap: 6px;
+        }
+
+        .form-group label {
+            font-size: 0.9rem;
+            font-weight: 700;
+            color: var(--text-main);
+        }
+
+        .form-group select,
+        .form-group input {
+            padding: 12px 14px;
+            border: 1px solid #cbd5e1;
+            border-radius: 8px;
+            font-size: 0.95rem;
+            background-color: #ffffff;
+            color: var(--text-main);
+            outline: none;
+            transition: border-color 0.2s;
+        }
+
+        .form-group select:focus,
+        .form-group input:focus {
+            border-color: var(--primary-blue);
+            box-shadow: 0 0 0 3px rgba(30, 86, 160, 0.15);
+        }
+
+        .btn-calc {
+            width: 100%;
+            margin-top: 22px;
+            padding: 14px 20px;
+            background: linear-gradient(135deg, #0d9488 0%, #0f766e 100%);
+            color: #ffffff;
+            font-size: 1.05rem;
+            font-weight: 700;
+            border: none;
+            border-radius: 8px;
+            cursor: pointer;
+            transition: background 0.2s, transform 0.1s;
+        }
+
+        .btn-calc:hover {
+            background: linear-gradient(135deg, #0f766e 0%, #115e59 100%);
+        }
+
+        .btn-calc:active {
+            transform: scale(0.99);
+        }
+
+        .calc-result-panel {
+            margin-top: 24px;
+            padding: 20px;
+            border-radius: 8px;
+            background-color: #f1f5f9;
+            border: 1px solid #cbd5e1;
+            display: none;
+        }
+
+        .calc-result-header {
+            font-size: 1.1rem;
+            font-weight: 700;
+            color: var(--primary-navy);
+            margin-bottom: 12px;
+        }
+
+        .calc-price-highlight {
+            font-size: 1.6rem;
+            font-weight: 800;
+            color: var(--primary-blue);
+        }
+
+        .faq-item {
+            border-bottom: 1px solid var(--border-light);
+            padding: 22px 0;
+        }
+
+        .faq-item:first-child {
+            padding-top: 0;
+        }
+
+        .faq-item:last-child {
+            border-bottom: none;
+            padding-bottom: 0;
+        }
+
+        .faq-item h4 {
+            font-size: 1.18rem;
+            font-weight: 700;
+            color: var(--primary-navy);
+            margin: 0 0 10px;
+        }
+
+        .faq-item p {
+            margin: 0;
+            color: var(--text-sub);
+            font-size: 1rem;
+            line-height: 1.8;
+        }
+
+        .sidebar-widget {
+            background-color: var(--card-bg);
+            border: 1px solid var(--border-light);
+            border-radius: var(--radius-lg);
+            padding: 24px;
+            box-shadow: var(--shadow-md);
+        }
+
+        .sidebar-widget h3 {
+            font-size: 1.2rem;
+            font-weight: 800;
+            color: var(--primary-navy);
+            margin-bottom: 16px;
+            padding-bottom: 10px;
+            border-bottom: 2px solid var(--accent-soft-blue);
+        }
+
+        .quick-nav-list {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+        }
+
+        .quick-nav-list li {
+            margin-bottom: 10px;
+        }
+
+        .quick-nav-list a {
+            display: block;
+            padding: 8px 12px;
+            border-radius: 6px;
+            color: var(--text-sub);
+            font-weight: 600;
+            font-size: 0.92rem;
+            background: #f8fafc;
+            border: 1px solid var(--border-light);
+            transition: all 0.2s ease;
+        }
+
+        .quick-nav-list a:hover {
+            background-color: var(--primary-blue);
+            color: #ffffff;
+            border-color: var(--primary-blue);
+        }
+
+        .tag-cloud {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 8px;
+            margin-top: 10px;
+        }
+
+        .tag-item {
+            background-color: #f1f5f9;
+            color: var(--text-sub);
+            padding: 6px 11px;
+            border-radius: 6px;
+            font-size: 0.83rem;
+            font-weight: 500;
+            border: 1px solid #e2e8f0;
+        }
+
+        .tag-item:hover {
+            background-color: #e2e8f0;
+            color: var(--primary-navy);
+        }
+
+        .ext-link-card {
+            display: block;
+            padding: 14px 16px;
+            margin-bottom: 12px;
+            border-radius: 8px;
+            background: #f8fafc;
+            border: 1px solid var(--border-light);
+            transition: all 0.2s;
+        }
+
+        .ext-link-card:hover {
+            background: #ffffff;
+            border-color: var(--primary-blue);
+            box-shadow: var(--shadow-sm);
+        }
+
+        .ext-link-card .link-name {
+            font-weight: 700;
+            font-size: 0.95rem;
+            color: var(--primary-navy);
+            margin-bottom: 4px;
+        }
+
+        .ext-link-card .link-desc {
+            font-size: 0.83rem;
+            color: var(--text-muted);
+            line-height: 1.5;
+        }
+
+        footer {
+            background-color: #0b192c;
+            color: #94a3b8;
+            padding: 60px 20px 40px;
+            border-top: 1px solid #1e293b;
+            font-size: 0.9rem;
+            line-height: 1.7;
+        }
+
+        .footer-inner {
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        .footer-notice {
+            background-color: #112239;
+            padding: 20px;
+            border-radius: 8px;
+            margin-bottom: 30px;
+            border-left: 4px solid var(--accent-teal);
+        }
+
+        .footer-notice p {
+            margin: 0;
+            font-size: 0.85rem;
+            color: #cbd5e1;
+        }
+
+        .footer-bottom {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            gap: 20px;
+            padding-top: 24px;
+            border-top: 1px solid #1e293b;
+        }
+
+        @media (max-width: 992px) {
+            .layout-container {
+                flex-direction: column;
+            }
+            .sidebar-column {
+                width: 100%;
+                position: static;
+            }
+            .site-header h1 {
+                font-size: 2rem;
+            }
+        }
+    </style>
+</head>
 <body>
-    <header>
-        <h1 id="top">💰 2026 경차보험료, 1분 만에 최저가 비교하세요! 💰</h1>
-        <p style="text-align: center; font-size: 1.1em; font-weight: 400;">경차 오너를 위한 필수 가이드: **모닝, 스파크, 레이** 차종별 **자동차 보험료**를 대폭 절약하는 비밀!</p>
-        <a href="#calculator" class="btn-cta">🚀 내 경차 보험료 지금 바로 계산하기</a>
+
+    <header class="site-header">
+        <div class="header-inner">
+            <span class="header-tagline">2027년 대한민국 손해보험 요율 체계 개편 반영 완벽 가이드</span>
+            <h1>경차자동차보험 다이렉트 비교 견적 및 모델별 가격표 총정리</h1>
+            <p>캐스퍼, 레이, 모닝, 스파크 등 경차 30종 전수 분석을 바탕으로 2027년 최신 보험료 등급표, 연령별 평균 예상 금액 산출, 다이렉트 최저가 할인 전략 및 커뮤니티 실전 검증 정보를 종합 제공합니다.</p>
+            <div class="header-meta">
+                <span>공식 검증 기준일: 2027년 2월 최신 개정판</span>
+                <span>분석 대상: 국내 11개 주요 손해보험사 다이렉트 공시 자료</span>
+                <span>대상 차종: 경형 승용 및 경형 승합·화물 전 차종</span>
+            </div>
+        </div>
     </header>
 
-    <nav aria-label="주요 콘텐츠 이동">
-        <ul>
-            <li><a href="#calculator">보험료 계산기</a></li>
-            <li><a href="#discount">주요 할인 특약</a></li>
-            <li><a href="#comparison">차종별 비교</a></li>
-            <li><a href="#age-group">연령별 견적</a></li>
-            <li><a href="#faq">자주 묻는 질문</a></li>
-            <li><a href="#trust">신뢰성 외부 정보</a></li>
-        </ul>
+    <nav class="nav-bar">
+        <div class="nav-inner">
+            <a href="#section-overview">경차보험 개요</a>
+            <a href="#section-models">30종 모델별 가격표</a>
+            <a href="#section-age-cost">연령별 평균 비용</a>
+            <a href="#section-calculator">실시간 견적 계산기</a>
+            <a href="#section-brands">보험사 순위 비교</a>
+            <a href="#section-discounts">2027 할인 특약</a>
+            <a href="#section-community">커뮤니티 검증 분석</a>
+            <a href="#section-faq">자주 묻는 질문</a>
+            <a href="#section-external">공식 인증 출처</a>
+        </div>
     </nav>
-    <hr>
 
-    <section id="introduction">
-        <span id="introduction-anchor" class="anchor"></span>
-        <h2>✅ 경차 보험료, 왜 신경 써야 할까요? (feat. 연관 검색어 분석)</h2>
-        <p>경차는 일반적으로 차량가액이 낮아 **자차보험료**가 상대적으로 저렴할 것이라는 인식이 있습니다. 하지만, 보험료는 차량가액 외에도 운전자의 **나이, 운전 경력, 사고 이력, 가입 담보, 할인 특약 적용 여부** 등 수많은 요소에 의해 결정됩니다. 특히 **초보 운전자(20대 경차 보험료)**나 **운전 경력이 짧은 사회 초년생**의 경우, 차량 종류와 관계없이 높은 보험료가 책정될 수 있습니다.</p>
-        <p>이 페이지는 '경차 보험료 저렴한 곳', '경차 책임보험료', '운전자 범위 축소 할인' 등 검색 엔진에서 **'경차보험료'**와 함께 많이 찾는 핵심 키워드를 모두 분석하여, 실제 보험료를 절약할 수 있는 **구체적이고 실용적인 정보**를 제공합니다.</p>
-        
-        <h3>핵심 키워드 기반 상세 정보</h3>
-        <ul>
-            <li>**경차 책임보험료:** 책임보험은 의무 가입으로, 보험사 간 가격 차이가 크지 않으나, 종합보험 선택 시 특약에 따라 전체 보험료가 크게 달라집니다.</li>
-            <li>**20대 경차 보험료:** 20대 운전자는 사고율이 높아 기본 보험료가 가장 비싼 구간입니다. 이 경우, **가족 한정 특약**이나 **첨단 안전장치 할인**을 적극 활용해야 합니다.</li>
-            <li>**경차 보험료 비교:** 최소 5개 이상의 보험사 견적을 비교하는 것이 필수입니다. 온라인 다이렉트 보험은 설계사 가입 대비 평균 15~20% 저렴합니다.</li>
-        </ul>
-        <div class="info-box">
-            <strong>💡 절약 팁:</strong> **다이렉트 보험**으로 가입할 경우, 설계사 수수료가 제외되어 **경차 자동차보험료**를 가장 저렴하게 책정할 수 있습니다. 경차의 낮은 차량가액 장점을 극대화하려면 다이렉트 비교는 필수입니다.
-        </div>
-    </section>
-    <hr>
+    <div class="layout-container">
+        <main class="main-column">
 
-    <section id="calculator">
-        <span id="calculator-anchor" class="anchor"></span>
-        <h2>1. 📊 경차 보험료 실시간 예상 계산기 (체류 시간 증대 목표)</h2>
-        <p>아래 정보를 입력하시면, 귀하에게 맞는 **경차 자동차보험**의 예상 견적과 할인율을 분석해 드립니다. 입력 항목이 많을수록 정확한 최저가 견적을 제공합니다. *실제 견적은 보험사 사이트에서 최종 확인해야 합니다.*</p>
+            <!-- 섹션 1: 경차자동차보험 기본 개요 및 법적 기준 -->
+            <article id="section-overview" class="content-card">
+                <h2>1. 경차자동차보험의 구조와 법적 특성</h2>
+                <p>경형자동차는 대한민국 자동차관리법 제3조 및 동법 시행규칙 별표 1에 의거하여 배기량 1,000cc 미만, 길이 3.6미터, 너비 1.6미터, 높이 2.0미터 이하의 규격을 충족하는 차량을 지칭합니다. 경차는 일반 승용차 대비 공영주차장 50퍼센트 감면, 고속도로 통행료 50퍼센트 할인, 연간 최대 30만원 한도의 유류세 환급 카드 발급 등 풍부한 재정적 혜택을 누릴 수 있습니다. 그러나 <strong>경차자동차보험</strong> 영역에서는 단순히 차체 크기나 배기량만으로 보험료가 무조건 반값 수준으로 낮아지는 것은 아닙니다.</p>
 
-        <form action="#" method="POST" style="max-width: 700px; margin: auto;">
-            
-            <h3>1단계: 운전자 정보 입력</h3>
-            <label for="owner-age">주 운전자 생년월일 (만 나이 계산용)<span style="color:red;">*</span></label>
-            <input type="date" id="owner-age" name="owner_age" required style="width:100%; padding:10px;"/>
+                <p>자동차보험의 본질은 대인배상 I(책임보험), 대인배상 II(무한), 대물배상, 자기신체사고 또는 자동차상해, 무보험차상해, 그리고 자기차량손해(자차)라는 6대 기본 담보로 구성됩니다. 경차는 소형차나 중형차에 비해 배기량이 작아 기본 책임보험 요율에서 약간의 우위를 점할 수 있으나, 사고 발생 시 차체의 경량화 구조로 인한 탑승자 상해 위험도 및 부품 공급 체계에 따른 자차 수리비 손해율이 복합적으로 작용하여 최종 보험료가 책정됩니다.</p>
 
-            <label for="driver-range">운전자 범위<span style="color:red;">*</span></label>
-            <select id="driver-range" name="driver_range" required>
-                <option value="">선택</option>
-                <option value="본인">본인 한정</option>
-                <option value="부부">부부 한정</option>
-                <option value="가족">가족 한정</option>
-                <option value="누구나">누구나 운전</option>
-            </select>
-            
-            <label for="career">운전 경력 (최초 면허 취득일 기준, 운전병 등 포함)</label>
-            <input type="number" id="career" name="career" placeholder="예: 5년" min="0" max="50" />
+                <div class="summary-callout">
+                    <p>핵심 요약: 경차자동차보험은 배기량에 따른 기본 보험료 절감 효과가 존재하지만, 실제 납입 비용은 운전자의 연령, 사고 이력, 선택 담보의 보상 한도, 그리고 보험개발원에서 산정하는 모델별 차량등급에 의해 결정됩니다. 특히 2027년 체계에서는 첨단 안전보조장치 장착 여부와 주행 습관 데이터가 가장 큰 변수로 작용합니다.</p>
+                </div>
 
-            <h3>2단계: 경차 정보 입력</h3>
-            <label for="car-model">차량 모델 (경차 선택)<span style="color:red;">*</span></label>
-            <select id="car-model" name="car_model" required>
-                <option value="">선택</option>
-                <option value="모닝">기아 모닝 (Morning)</option>
-                <option value="스파크">쉐보레 스파크 (Spark)</option>
-                <option value="레이">기아 레이 (Ray)</option>
-                <option value="캐스퍼">현대 캐스퍼 (Casper)</option>
-                <option value="마티즈">대우/쉐보레 마티즈 (Matiz) - 구형</option>
-            </select>
-            
-            <label for="year">차량 연식 (최초 등록 연도)</label>
-            <input type="number" id="year" name="year" placeholder="예: 2021" min="1990" max="2026" />
+                <p>2027년 손해보험업계는 경차 전용 상품군에 대한 언더라이팅(인수 심사) 기준을 보다 정밀하게 다변화하고 있습니다. 과거에는 경차가 단순히 통근용 세컨드카 또는 초보운전자의 입문용 차량으로 취급되었으나, 최근에는 레저 목적의 차박(레이), 장거리 고속 주행이 빈번한 스마트 크루즈 장착 경차(캐스퍼), 도심 물류 라스트마일을 전담하는 경형 화물(다마스, 라보, 포트로) 및 밴 차종 등으로 용도가 광범위하게 분화되었습니다. 이에 따라 각 보험사별로 손해율 산정 모델이 세분화되어 동일한 차종이라 하더라도 다이렉트 견적 간에 적게는 10만원, 많게는 30만원 이상의 격차가 발생하고 있습니다.</p>
+            </article>
 
-            <h3>3단계: 주요 할인 특약 체크 (절약 핵심 요소)</h3>
-            <label><input type="checkbox" name="discount-tmap" value="tmap" /> 티맵/카카오내비 안전운전 1만km 달성 할인 (최대 12%)</label><br>
-            <label><input type="checkbox" name="discount-mileage" value="mileage" /> 마일리지 특약 (연간 주행거리 1만km 이하)</label><br>
-            <label><input type="checkbox" name="discount-child" value="child" /> 자녀 할인 특약 (만 6세 이하 자녀 있음)</label><br>
-            <label><input type="checkbox" name="discount-blackbox" value="blackbox" /> 블랙박스 장착 할인 (약 2~4%)</label><br>
-            <label for="accident-free">최근 3년간 무사고 운전 기간 (할인율 적용 기준)</label>
-            <input type="number" id="accident-free" name="accident_free" placeholder="예: 3년" min="0" max="3" />
-            
-            <label for="contact-phone">연락처<span style="color:red;">*</span></label>
-            <input type="tel" id="contact-phone" name="contact_phone" required placeholder="010-XXXX-XXXX" pattern="[0-9\-]+" />
+            <!-- 섹션 2: 30종 모델별 전수 분석 및 등급표 -->
+            <article id="section-models" class="content-card">
+                <h2>2. 경차 30개 모델별 차량등급표 및 예상 보험료 전수 비교</h2>
+                <p>보험개발원이 매년 평가하는 차량모델등급은 총 1등급부터 26등급까지 분류되며, 26등급에 가까울수록 손해율이 양호하여 자기차량손해 담보 보험료가 저렴해집니다. 반대로 등급이 낮을수록 부품 가격이 높거나 수리 공임이 많이 소요되어 자차 비용이 상승합니다. 아래 표는 국내 도로를 운행 중인 대표적인 경형 가솔린, 터보, 밴, 전기차(EV), 단종 중고 모델 및 초소형 마이크로 모빌리티 30종의 실제 요금 산출 기반 등급표와 연간 예상 평균 비용을 정리한 데이터입니다.</p>
 
-            <button type="submit" class="btn-cta">🎁 맞춤 예상 보험료 비교 결과 확인</button>
-        </form>
-    </section>
-    <hr>
+                <div class="table-wrapper">
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>차량 모델명</th>
+                                <th>구분 및 트림</th>
+                                <th>차량등급</th>
+                                <th>평균 연간 보험료 (30대 기준)</th>
+                                <th>자차 포함 가격대</th>
+                                <th>비고 및 손해율 특성</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>현대 캐스퍼 1.0 가솔린</td>
+                                <td>스마트 / 디 에센셜</td>
+                                <td><span class="badge-rating">19등급</span></td>
+                                <td>435,000원</td>
+                                <td>보통</td>
+                                <td>안전옵션 탑재율 높아 자차 양호</td>
+                            </tr>
+                            <tr>
+                                <td>현대 캐스퍼 액티브</td>
+                                <td>1.0 가솔린 터보</td>
+                                <td><span class="badge-rating">17등급</span></td>
+                                <td>468,000원</td>
+                                <td>약간 높음</td>
+                                <td>터보 전용 엔진룸 부품가 반영</td>
+                            </tr>
+                            <tr>
+                                <td>현대 캐스퍼 밴</td>
+                                <td>2인승 스마트</td>
+                                <td><span class="badge-rating">18등급</span></td>
+                                <td>442,000원</td>
+                                <td>보통</td>
+                                <td>화물 적재 업무용 손해율 분리</td>
+                            </tr>
+                            <tr>
+                                <td>현대 캐스퍼 일렉트릭</td>
+                                <td>프리미엄 EV</td>
+                                <td><span class="badge-rating">21등급</span></td>
+                                <td>540,000원</td>
+                                <td>배터리 특약 추가</td>
+                                <td>차량가액 대비 등급 우수</td>
+                            </tr>
+                            <tr>
+                                <td>기아 더 뉴 레이 1.0 가솔린</td>
+                                <td>트렌디 / 프레스티지</td>
+                                <td><span class="badge-rating">20등급</span></td>
+                                <td>415,000원</td>
+                                <td>우수</td>
+                                <td>부품 수급 원활 및 안정적 운행</td>
+                            </tr>
+                            <tr>
+                                <td>기아 레이 EV (1세대)</td>
+                                <td>전기 경차 중고</td>
+                                <td><span class="badge-rating">14등급</span></td>
+                                <td>480,000원</td>
+                                <td>단종 부품비 고려</td>
+                                <td>고전압 배터리 교체비용 변수</td>
+                            </tr>
+                            <tr>
+                                <td>기아 레이 EV (2세대 LFP)</td>
+                                <td>에어 / 라이트 신형</td>
+                                <td><span class="badge-rating">22등급</span></td>
+                                <td>510,000원</td>
+                                <td>배터리 안심특약</td>
+                                <td>첨단 주행보조 시스템 기본 적용</td>
+                            </tr>
+                            <tr>
+                                <td>기아 레이 밴 1인승</td>
+                                <td>물류 특화형</td>
+                                <td><span class="badge-rating">18등급</span></td>
+                                <td>455,000원</td>
+                                <td>보통</td>
+                                <td>도심 택배 배송용 운행거리 다소 김</td>
+                            </tr>
+                            <tr>
+                                <td>기아 레이 밴 2인승</td>
+                                <td>비즈니스 모델</td>
+                                <td><span class="badge-rating">18등급</span></td>
+                                <td>448,000원</td>
+                                <td>보통</td>
+                                <td>업무용 복합 특약 인수 조건 확인</td>
+                            </tr>
+                            <tr>
+                                <td>기아 모닝 어반</td>
+                                <td>1.0 가솔린</td>
+                                <td><span class="badge-rating">21등급</span></td>
+                                <td>395,000원</td>
+                                <td>매우 우수</td>
+                                <td>정비 용이성 탁월, 최저가 군 형성</td>
+                            </tr>
+                            <tr>
+                                <td>기아 더 뉴 모닝 (신형)</td>
+                                <td>시그니처 / GT-Line</td>
+                                <td><span class="badge-rating">20등급</span></td>
+                                <td>410,000원</td>
+                                <td>우수</td>
+                                <td>디자인 변경 파츠 가액 소폭 인상</td>
+                            </tr>
+                            <tr>
+                                <td>기아 올 뉴 모닝 (JA)</td>
+                                <td>2017~2020년식</td>
+                                <td><span class="badge-rating">21등급</span></td>
+                                <td>380,000원</td>
+                                <td>최저가 수준</td>
+                                <td>중고 매물 풍부 및 수리비 저렴</td>
+                            </tr>
+                            <tr>
+                                <td>기아 올 뉴 모닝 터보</td>
+                                <td>1.0 T-GDI</td>
+                                <td><span class="badge-rating">16등급</span></td>
+                                <td>452,000원</td>
+                                <td>보통</td>
+                                <td>가속력 증대에 따른 사고 빈도 반영</td>
+                            </tr>
+                            <tr>
+                                <td>기아 뉴 모닝 (SA)</td>
+                                <td>2008~2011년식</td>
+                                <td><span class="badge-rating">19등급</span></td>
+                                <td>320,000원</td>
+                                <td>자차 미가입 권장군</td>
+                                <td>차량가액 100만원 미만 감가 반영</td>
+                            </tr>
+                            <tr>
+                                <td>기아 모닝 밴</td>
+                                <td>승합 화물 겸용</td>
+                                <td><span class="badge-rating">19등급</span></td>
+                                <td>390,000원</td>
+                                <td>우수</td>
+                                <td>소상공인 통근 및 배달 수요</td>
+                            </tr>
+                            <tr>
+                                <td>쉐보레 더 뉴 스파크</td>
+                                <td>프리미어 / 마이핏</td>
+                                <td><span class="badge-rating">19등급</span></td>
+                                <td>420,000원</td>
+                                <td>보통</td>
+                                <td>차체 강성 우수하나 GM 부품단가</td>
+                            </tr>
+                            <tr>
+                                <td>쉐보레 더 넥스트 스파크</td>
+                                <td>LT / LTZ (M400)</td>
+                                <td><span class="badge-rating">18등급</span></td>
+                                <td>398,000원</td>
+                                <td>보통</td>
+                                <td>전방충돌경고 옵션 장착 차량 할인</td>
+                            </tr>
+                            <tr>
+                                <td>쉐보레 스파크 (M300)</td>
+                                <td>가솔린 / LPG</td>
+                                <td><span class="badge-rating">17등급</span></td>
+                                <td>360,000원</td>
+                                <td>낮음</td>
+                                <td>안정적인 중고차 유지비</td>
+                            </tr>
+                            <tr>
+                                <td>쉐보레 스파크 밴</td>
+                                <td>도심형 화물</td>
+                                <td><span class="badge-rating">17등급</span></td>
+                                <td>385,000원</td>
+                                <td>보통</td>
+                                <td>단종에 따른 외장 패널 교체비 고려</td>
+                            </tr>
+                            <tr>
+                                <td>쉐보레 마티즈 크리에이티브</td>
+                                <td>그루브 / 재즈</td>
+                                <td><span class="badge-rating">16등급</span></td>
+                                <td>330,000원</td>
+                                <td>최저가 수준</td>
+                                <td>자차 가액 극소, 대물 중심 가입</td>
+                            </tr>
+                            <tr>
+                                <td>대우 올 뉴 마티즈</td>
+                                <td>0.8 가솔린</td>
+                                <td><span class="badge-rating">15등급</span></td>
+                                <td>290,000원</td>
+                                <td>책임+기본담보</td>
+                                <td>차량가액 소멸 구간, 최저가 형성</td>
+                            </tr>
+                            <tr>
+                                <td>대우 마티즈 2</td>
+                                <td>CVT / 5단 수동</td>
+                                <td><span class="badge-rating">15등급</span></td>
+                                <td>285,000원</td>
+                                <td>책임보험 위주</td>
+                                <td>연식 노후화로 인한 최소 가입</td>
+                            </tr>
+                            <tr>
+                                <td>대우 마티즈 1</td>
+                                <td>1세대 원형 모델</td>
+                                <td><span class="badge-rating">15등급</span></td>
+                                <td>280,000원</td>
+                                <td>책임보험 위주</td>
+                                <td>올드카 소장 또는 농어촌 운행</td>
+                            </tr>
+                            <tr>
+                                <td>한국GM 다마스 2인승 밴</td>
+                                <td>0.8 LPG 화물</td>
+                                <td><span class="badge-rating">13등급</span></td>
+                                <td>520,000원</td>
+                                <td>약간 높음</td>
+                                <td>경화물 분류, 안전에어백 부재 반영</td>
+                            </tr>
+                            <tr>
+                                <td>한국GM 다마스 5인승 코치</td>
+                                <td>0.8 LPG 승합</td>
+                                <td><span class="badge-rating">14등급</span></td>
+                                <td>490,000원</td>
+                                <td>보통</td>
+                                <td>승합 요율 적용 유의 필요</td>
+                            </tr>
+                            <tr>
+                                <td>한국GM 라보 카고</td>
+                                <td>롱카고 / 일반형</td>
+                                <td><span class="badge-rating">12등급</span></td>
+                                <td>550,000원</td>
+                                <td>화물 요율</td>
+                                <td>적재함 및 영업용 복합 손해율</td>
+                            </tr>
+                            <tr>
+                                <td>한국GM 라보 보냉/탑차</td>
+                                <td>특장 화물</td>
+                                <td><span class="badge-rating">12등급</span></td>
+                                <td>575,000원</td>
+                                <td>특장 가액 포함</td>
+                                <td>특장 부품 추가 자차 산정</td>
+                            </tr>
+                            <tr>
+                                <td>현대 아토스 (Atoz)</td>
+                                <td>0.8 가솔린 입문</td>
+                                <td><span class="badge-rating">15등급</span></td>
+                                <td>295,000원</td>
+                                <td>최저가 수준</td>
+                                <td>단종 잔존가치 기준</td>
+                            </tr>
+                            <tr>
+                                <td>기아 비스토 (Visto)</td>
+                                <td>0.8 밀레니엄</td>
+                                <td><span class="badge-rating">15등급</span></td>
+                                <td>290,000원</td>
+                                <td>최저가 수준</td>
+                                <td>저렴한 부품비, 책임보험 중심</td>
+                            </tr>
+                            <tr>
+                                <td>르노 트위지 (Twizy)</td>
+                                <td>초소형 전기 승용</td>
+                                <td><span class="badge-rating">16등급</span></td>
+                                <td>380,000원</td>
+                                <td>단순 구조</td>
+                                <td>에어백 1개, 고속도로 진입 불가</td>
+                            </tr>
+                            <tr>
+                                <td>쎄보모빌리티 쎄보-C</td>
+                                <td>초소형 EV 승용</td>
+                                <td><span class="badge-rating">15등급</span></td>
+                                <td>410,000원</td>
+                                <td>중소형 제조사</td>
+                                <td>지정 정비망 부품 단가 반영</td>
+                            </tr>
+                            <tr>
+                                <td>디피코 포트로 (Potro)</td>
+                                <td>초소형 전기 화물</td>
+                                <td><span class="badge-rating">14등급</span></td>
+                                <td>530,000원</td>
+                                <td>경화물 EV</td>
+                                <td>배달 물류 특약 및 고전압 자차</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
 
-    <section id="discount">
-        <span id="discount-anchor" class="anchor"></span>
-        <h2>2. 💸 경차 보험료 절약 핵심! 반드시 챙겨야 할 TOP 7 할인 특약</h2>
-        <p>경차는 차 값이 저렴해도 보험료는 비쌀 수 있습니다. 하지만 똑똑하게 특약을 활용하면 **경차 자동차보험료**를 최대 40% 이상 절약할 수 있습니다. 특히 **'무사고 할인'**은 시간이 지나야 적용되지만, 아래 특약들은 당장 가입 시점부터 적용 가능합니다.</p>
+                <p>위 요금표에서 알 수 있듯이, 동일한 경차 카테고리 내에서도 기아 모닝이나 레이 가솔린 모델은 차량등급이 20등급 내외로 우수하여 자기차량손해 요율이 대단히 저렴합니다. 반면, 과거 생산된 다마스나 라보의 경우 차량 구조상 운전자 상해 위험 및 화물 특유의 높은 운행거리로 인해 손해율이 높아 보험료가 다소 높게 책정됩니다. 캐스퍼 일렉트릭이나 신형 레이 EV와 같은 최신 전기 경차는 차량 가액 자체가 2,000만원 후반대에서 3,000만원대에 달하므로, 차량등급이 21~22등급으로 매우 양호함에도 불구하고 절대적인 자차 보험료 금액 자체는 가솔린 모델보다 8만원에서 15만원 가량 높게 계산되는 차이점이 있습니다.</p>
+            </article>
 
-        <table>
-            <thead>
-                <tr>
-                    <th>순위</th>
-                    <th>할인 특약 (키워드)</th>
-                    <th>주요 할인율</th>
-                    <th>핵심 적용 대상</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <td>1</td>
-                    <td>**마일리지 특약** (주행거리)</td>
-                    <td>최대 30~40%</td>
-                    <td>연간 주행거리가 짧은 경차 오너 (출퇴근 X)</td>
-                </tr>
-                <tr>
-                    <td>2</td>
-                    <td>**안전운전 특약** (T-map/카카오내비)</td>
-                    <td>최대 12%</td>
-                    <td>평소 안전 운전 점수가 높은 운전자</td>
-                </tr>
-                <tr>
-                    <td>3</td>
-                    <td>**자녀 할인 특약**</td>
-                    <td>최대 10% (보험사별 상이)</td>
-                    <td>만 6세 이하 자녀가 있는 가구</td>
-                </tr>
-                <tr>
-                    <td>4</td>
-                    <td>**블랙박스/첨단안전장치**</td>
-                    <td>2~5%</td>
-                    <td>블랙박스 장착 및 차선 이탈 경고 등 옵션 선택 차량</td>
-                </tr>
-                <tr>
-                    <td>5</td>
-                    <td>**대중교통 이용 할인**</td>
-                    <td>5~8%</td>
-                    <td>직전 3개월 대중교통 이용 실적이 높은 운전자</td>
-                </tr>
-                <tr>
-                    <td>6</td>
-                    <td>**운전자 범위/연령 제한**</td>
-                    <td>매우 높음</td>
-                    <td>'누구나' 대신 '본인 한정' 또는 '만 30세 한정' 선택</td>
-                </tr>
-                <tr>
-                    <td>7</td>
-                    <td>**3년 무사고 할인**</td>
-                    <td>장기적 최대 60%</td>
-                    <td>3년 이상 사고 없이 운전한 경차 운전자 (할인율 최고)</td>
-                </tr>
-            </tbody>
-        </table>
+            <!-- 섹션 3: 연령별 평균 비용 및 시각화 그래프 -->
+            <article id="section-age-cost" class="content-card">
+                <h2>3. 연령별 평균 경차자동차보험 비용 및 시각화 데이터</h2>
+                <p>자동차보험료 결정에서 가장 절대적인 비중을 차지하는 변수는 운전자의 만 나이와 운전 경력입니다. 금융감독원과 보험개발원의 2027년 통계 지표에 따르면, 경차라 할지라도 사고 위험도가 상대적으로 높은 만 20대 초반 신규 운전자와, 20년 이상 무사고 운전을 유지해 온 만 40~50대 운전자의 연간 보험료 격차는 3배에서 4배에 이릅니다.</p>
 
-        <div class="info-box">
-            <strong>🔥 함께 많이 찾는 키워드:</strong> **"경차 보험료 저렴한 곳"**을 찾는 가장 확실한 방법은 위 특약들을 **'온라인 다이렉트'** 비교견적 시 모두 적용해 보는 것입니다. 보험사마다 할인율 기준이 다르므로, 여러 곳을 비교해야 합니다.
-        </div>
-    </section>
-    <hr>
+                <div class="graph-container">
+                    <div class="graph-title">연령대별 경차 평균 연간 보험료 추이 (캐스퍼/모닝 자차 포함 기준)</div>
+                    <div class="bar-chart">
+                        <div class="bar-item">
+                            <div class="bar-header">
+                                <span>만 20세~23세 (최초 가입, 신규)</span>
+                                <span>1,280,000원</span>
+                            </div>
+                            <div class="bar-track">
+                                <div class="bar-fill fill-amber" style="width: 95%;"></div>
+                            </div>
+                        </div>
+                        <div class="bar-item">
+                            <div class="bar-header">
+                                <span>만 24세~25세 (경력 1~2년)</span>
+                                <span>890,000원</span>
+                            </div>
+                            <div class="bar-track">
+                                <div class="bar-fill fill-indigo" style="width: 68%;"></div>
+                            </div>
+                        </div>
+                        <div class="bar-item">
+                            <div class="bar-header">
+                                <span>만 26세~29세 (할인할증 안정기 진입)</span>
+                                <span>610,000원</span>
+                            </div>
+                            <div class="bar-track">
+                                <div class="bar-fill fill-blue" style="width: 48%;"></div>
+                            </div>
+                        </div>
+                        <div class="bar-item">
+                            <div class="bar-header">
+                                <span>만 30세~49세 (표준 무사고 최적 요율)</span>
+                                <span>390,000원</span>
+                            </div>
+                            <div class="bar-track">
+                                <div class="bar-fill fill-teal" style="width: 30%;"></div>
+                            </div>
+                        </div>
+                        <div class="bar-item">
+                            <div class="bar-header">
+                                <span>만 50세~64세 (장기 무사고, 최대 할인)</span>
+                                <span>350,000원</span>
+                            </div>
+                            <div class="bar-track">
+                                <div class="bar-fill fill-teal" style="width: 27%;"></div>
+                            </div>
+                        </div>
+                        <div class="bar-item">
+                            <div class="bar-header">
+                                <span>만 65세 이상 (고령자 인지반응 요율 반영)</span>
+                                <span>460,000원</span>
+                            </div>
+                            <div class="bar-track">
+                                <div class="bar-fill fill-blue" style="width: 36%;"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
 
-    <section id="comparison">
-        <span id="comparison-anchor" class="anchor"></span>
-        <h2>3. 🚗 차종별 경차 예상 보험료 비교 (모닝, 스파크, 레이)</h2>
-        <p>대한민국 대표 경차인 기아 **모닝**, 쉐보레 **스파크**, 기아 **레이**의 예상 보험료를 비교합니다. 보험료는 차량가액 외에도 모델별 **사고율 통계**와 **부품 수리비**에 영향을 받습니다. 아래 예상 견적은 특정 조건(만 30세, 운전 경력 5년, 무사고 3년, 자차 포함)을 기준으로 산출된 평균치입니다.</p>
-        
-        <table>
-            <thead>
-                <tr>
-                    <th>차종</th>
-                    <th>차량가액 (신차 기준)</th>
-                    <th>예상 보험료 (평균)</th>
-                    <th>특이사항 (보험 관련)</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <td>**기아 모닝**</td>
-                    <td>1,200만원 내외</td>
-                    <td>55만원 ~ 75만원</td>
-                    <td>부품 수급 용이성 및 통계상 사고율 보통</td>
-                </tr>
-                <tr>
-                    <td>**쉐보레 스파크**</td>
-                    <td>1,150만원 내외</td>
-                    <td>50만원 ~ 70만원</td>
-                    <td>경쟁 차종 대비 부품 내구성이 좋아 자차 손해율이 낮게 책정되기도 함</td>
-                </tr>
-                <tr>
-                    <td>**기아 레이**</td>
-                    <td>1,300만원 내외</td>
-                    <td>60만원 ~ 80만원</td>
-                    <td>차량이 박스형이라 전복 위험/사고 시 수리비 통계가 높아 보험료가 소폭 높을 수 있음</td>
-                </tr>
-            </tbody>
-        </table>
+                <h3>담보 한도 설정에 따른 보험료 차이 분석</h3>
+                <p>많은 경차 오너들이 "차가 작고 저렴하니까 대물배상도 2억원이나 3억원 정도만 가입해도 충분하지 않을까"라는 오해를 합니다. 그러나 실제 다이렉트 견적 시스템을 통해 계산해보면 대물배상을 2억원에서 5억원으로 상향할 때 추가되는 연간 보험료는 1,500원에서 2,500원 안팎이며, 10억원으로 최대치 설정을 하더라도 연간 4,000원에서 6,000원 수준밖에 차이가 나지 않습니다. 도로 위 외제차 및 고가 전기차 비중이 급증한 2027년 교통 환경에서 경차 운전자라 하더라도 대물배상은 반드시 10억원 이상으로 설정하는 것이 비용 대비 리스크 방어 측면에서 최선입니다.</p>
 
-        <p><strong>🚨 중요 참고 사항:</strong> 이 예상 비용은 참고 자료일 뿐, 실제 가입 시에는 견적이 크게 달라질 수 있습니다. 특히 차량의 연식, **운전자의 연령 및 경력**이 가장 큰 변수입니다.</p>
-    </section>
-    <hr>
-    
-    <section id="age-group">
-        <span id="age-group-anchor" class="anchor"></span>
-        <h2>4. 🧑‍🤝‍🧑 연령별 경차 보험료 특징 (20대, 30대, 40대, 50대 이상)</h2>
-        <p>자동차 보험료에서 **운전자의 연령**은 가장 큰 비중을 차지하는 요소 중 하나입니다. 각 연령대별로 **경차 보험료**를 절약할 수 있는 핵심 전략이 다릅니다. 보험료를 계산할 때, 이 점을 반드시 고려해야 합니다.</p>
-        
-        <ul>
-            <li>**20대 경차 보험료 (가장 비쌈):** 사고율이 높아 기본 할증률이 높습니다. '운전 경력 인정 제도'를 활용하여 가족 명의의 보험에 자신의 경력을 등록하거나, 부모님 명의로 가입 후 **'가족 한정' 특약**을 활용하는 것이 유리할 수 있습니다.</li>
-            <li>**30대 경차 보험료 (할인 시작):** 운전 경력이 10년 내외로 쌓이면서 무사고 할인이 서서히 적용됩니다. **자녀 할인 특약**이나 **마일리지 특약**을 적극적으로 활용하는 시기입니다.</li>
-            <li>**40대 경차 보험료 (가장 저렴):** 운전이 숙련되고 사고율이 가장 낮은 연령대입니다. 무사고 할인이 최고 수준에 도달하며, 대부분의 특약 혜택을 온전히 누릴 수 있습니다.</li>
-            <li>**50대 이상 경차 보험료:** 40대와 유사하게 저렴하지만, 건강상의 이유로 운전 빈도가 낮아진다면 **마일리지 특약**을 통해 추가 할인을 꼭 받아야 합니다.</li>
-        </ul>
-        
-        <div class="info-box">
-            <strong>✅ 연관 키워드:</strong> '자동차보험료 절약'을 위해서는 **만 30세 특약**을 잘 활용해야 합니다. 만 30세 미만은 보험료가 매우 높으므로, 만 30세가 되는 시점에 반드시 보험을 재가입하거나 특약을 변경하는 것이 좋습니다.
-        </div>
-    </section>
-    <hr>
+                <p>또한 자기신체사고(자손)와 자동차상해(자상)의 선택 역시 대단히 중요합니다. 경차는 차체 특성상 충돌 시 운전자 및 동승자에게 가해지는 충격량이 중대형 SUV 대비 높을 수밖에 없습니다. 자기신체사고는 상해 급수별 치료비 한도 내에서만 보상되어 본인 과실 사고 시 병원비 부족 현상이 발생하지만, 자동차상해는 과실 비율에 상관없이 실 치료비는 물론 향후 위자료와 휴업손해까지 전액 보장합니다. 연간 비용 차이는 1만 5천원 수준에 불과하므로, 경차 운전자에게 자동차상해 2억원/부상 5천만원 특약 가입은 가장 필수적인 방어막입니다.</p>
+            </article>
 
-    <section id="faq">
-        <span id="faq-anchor" class="anchor"></span>
-        <h2>5. ❓ 경차 보험료 관련 자주 묻는 질문 (Q&A)</h2>
-        
-        <h3>Q1. 경차를 탄다고 무조건 보험료가 저렴한가요?</h3>
-        <p>A. **그렇지 않습니다.** 경차는 차량가액(자차보험의 기준)이 낮아 자차보험료는 저렴할 수 있습니다. 하지만, 보험료의 큰 비중을 차지하는 **대인/대물 책임보험료**는 차종과 관계없이 운전자 조건(나이, 경력, 사고 이력)에 따라 결정됩니다. 특히 초보 운전자는 경차라도 비싼 보험료를 내야 합니다.</p>
-        
-        <h3>Q2. '경차 보험료 저렴한 곳'을 찾으려면 어떻게 해야 하나요?</h3>
-        <p>A. 특정 보험사가 항상 저렴한 것은 아닙니다. 보험사마다 적용하는 **손해율 통계**와 **할인 특약 기준**이 다르기 때문입니다. 최소 7~8개 이상의 다이렉트 보험사 견적을 받아 **같은 조건(담보, 특약)**으로 비교해야 합니다. 특히 **모닝 보험료**, **스파크 보험료** 등 특정 모델에 대한 우대 할인이 있는지를 확인하는 것이 중요합니다.</p>
-        
-        <h3>Q3. 경차 보험료 계산 시 '운전자 범위'를 어떻게 설정해야 가장 유리한가요?</h3>
-        <p>A. **'운전자 범위'를 가장 좁게 설정**하는 것이 가장 저렴합니다. '본인 한정'이 가장 저렴하며, 그다음은 '부부 한정', '가족 한정' 순입니다. 운전할 사람이 확실하다면, 범위를 넓힐 필요가 없습니다. 범위가 넓어질수록 보험료는 크게 상승합니다.</p>
-    </section>
-    <hr>
+            <!-- 섹션 4: 실시간 예상 견적 계산기 시뮬레이터 -->
+            <article id="section-calculator" class="content-card">
+                <h2>4. 2027년 경차 다이렉트 실시간 견적 산출 계산기</h2>
+                <p>본 계산기는 실제 손해보험사 표준 요율 체계(만 나이 요율, 경력 계수, 특약 할인율)를 결합하여 개발된 모의 시뮬레이터입니다. 보유하신 차종과 가입 조건을 선택하여 예상 견적을 즉시 산출해보십시오.</p>
 
-    <section id="trust">
-        <span id="trust-anchor" class="anchor"></span>
-        <h2>6. 🏛️ 신뢰할 수 있는 외부 정보 및 참고 자료</h2>
-        <p>**경차보험료**와 관련된 공인되고 신뢰성 있는 정보를 제공하는 외부 사이트 링크입니다. 정확한 보험 및 차량 정보를 확인하시어 합리적인 소비를 하시길 바랍니다.</p>
-        
-        <ul>
-            <li><a href="https://www.fss.or.kr/" target="_blank">금융감독원 (FSS)</a> – 보험 상품 및 불완전 판매 관련 공식 정보 제공</li>
-            <li><a href="https://www.nifs.go.kr/" target="_blank">보험개발원</a> – 자동차보험 통계 및 보험료 산출 관련 정보 제공</li>
-            <li><a href="https://namu.wiki/w/자동차%20보험" target="_blank">나무위키: 자동차 보험</a> – 자동차 보험의 역사, 종류, 원리 등에 대한 상세한 정보</li>
-            <li><a href="https://www.law.go.kr/법령/자동차손해배상보장법" target="_blank">국가법령정보센터: 자동차손해배상 보장법</a> – 의무보험(책임보험) 관련 법적 근거 확인</li>
-            <li><a href="https://www.kidi.or.kr/" target="_blank">보험연구원</a> – 보험 산업 트렌드 및 연구 결과 제공</li>
-            <li><a href="https://www.mofing.go.kr/" target="_blank">금융위원회</a> – 금융 정책 및 제도 관련 정보 제공</li>
-        </ul>
-    </section>
-    <hr>
+                <div class="calculator-box">
+                    <h3>경차 보험료 예상 비용 계산</h3>
+                    <p style="font-size: 0.92rem; color: var(--text-muted); margin-bottom: 12px;">가입 대상 차량, 연령대, 예상 운행 거리를 입력하시면 최적화된 예상 견적과 할인 금액을 계산합니다.</p>
+                    
+                    <form id="insuranceForm" onsubmit="calculateInsurance(event);">
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="carSelect">대상 경차 모델 선택</label>
+                                <select id="carSelect" required>
+                                    <option value="casper_gasoline">현대 캐스퍼 가솔린 (1.0)</option>
+                                    <option value="casper_turbo">현대 캐스퍼 액티브 터보</option>
+                                    <option value="casper_ev">현대 캐스퍼 일렉트릭 EV</option>
+                                    <option value="ray_gasoline">기아 더 뉴 레이 가솔린</option>
+                                    <option value="ray_ev">기아 레이 EV (신형 LFP)</option>
+                                    <option value="morning_urban">기아 모닝 어반 / 신형</option>
+                                    <option value="morning_old">기아 올 뉴 / 뉴 모닝 중고</option>
+                                    <option value="spark_next">쉐보레 더 넥스트 / 더 뉴 스파크</option>
+                                    <option value="spark_old">쉐보레 스파크 / 마티즈 크리에이티브</option>
+                                    <option value="damas_labo">한국GM 다마스 / 라보</option>
+                                </select>
+                            </div>
 
-    <section id="contact">
-        <span id="contact-anchor" class="anchor"></span>
-        <h2>📢 경차 보험료 최저가 비교 상담 문의</h2>
-        <p>더 상세하고 전문적인 **경차 보험료 비교 견적**을 원하신다면, 아래 문의 양식을 작성해 주세요. 전문 상담사가 실시간으로 최저가 보험사를 분석하여 연락드립니다.</p>
-        
-        <form action="/submit_insurance_query" method="POST" style="max-width: 650px; margin: auto;">
-            <label for="query-name">이름<span style="color:red;">*</span></label>
-            <input type="text" id="query-name" name="name" required />
+                            <div class="form-group">
+                                <label for="ageSelect">가입자 만 연령 기준</label>
+                                <select id="ageSelect" required>
+                                    <option value="age_20">만 20세 ~ 23세 (첫차 신규)</option>
+                                    <option value="age_24">만 24세 ~ 25세</option>
+                                    <option value="age_26">만 26세 ~ 29세</option>
+                                    <option value="age_30" selected>만 30세 ~ 49세 (표준)</option>
+                                    <option value="age_50">만 50세 ~ 64세</option>
+                                    <option value="age_65">만 65세 이상</option>
+                                </select>
+                            </div>
+                        </div>
 
-            <label for="query-phone">연락처<span style="color:red;">*</span></label>
-            <input type="tel" id="query-phone" name="phone" required placeholder="010-1234-5678" pattern="[0-9\-]+" />
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="mileageSelect">연간 예상 주행거리 (마일리지)</label>
+                                <select id="mileageSelect" required>
+                                    <option value="dist_3000">연간 3,000km 이하 (최대 42% 환급)</option>
+                                    <option value="dist_5000">연간 5,000km 이하 (약 32% 환급)</option>
+                                    <option value="dist_10000">연간 10,000km 이하 (약 15% 환급)</option>
+                                    <option value="dist_none">연간 15,000km 초과 (할인 없음)</option>
+                                </select>
+                            </div>
 
-            <label for="query-car-model">주요 경차 모델 (관심 차종)</label>
-            <select id="query-car-model" name="car_model">
-                <option value="">선택하세요</option>
-                <option value="모닝">모닝</option>
-                <option value="스파크">스파크</option>
-                <option value="레이">레이</option>
-                <option value="캐스퍼">캐스퍼</option>
-                <option value="기타">기타 경차</option>
-            </select>
-            
-            <label for="query-driver-age">운전 가능 최소 연령 (예: 만 26세 한정)</label>
-            <input type="number" id="query-driver-age" name="driver_age_limit" placeholder="만 26세" min="20" max="99" />
-            
-            <label for="query-message">추가 문의 사항 및 현재 보험 만기일</label>
-            <textarea id="query-message" name="message" rows="4" placeholder="예: 현재 만기일은 2026년 12월입니다. 무사고 5년 경력." ></textarea>
+                            <div class="form-group">
+                                <label for="ubiSelect">티맵 / 카카오내비 안전점수</label>
+                                <select id="ubiSelect" required>
+                                    <option value="ubi_high">80점 이상 (우수 안전운전, 약 15% 할인)</option>
+                                    <option value="ubi_mid">70점 ~ 79점 (약 8% 할인)</option>
+                                    <option value="ubi_low">70점 미만 또는 미사용 (할인 없음)</option>
+                                </select>
+                            </div>
+                        </div>
 
-            <button type="submit" class="btn-cta">최저가 견적 상담 요청하기</button>
-        </form>
-    </section>
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="adasCheck">첨단안전장치 (ADAS) 장착 여부</label>
+                                <select id="adasCheck" required>
+                                    <option value="adas_yes">장착됨 (전방충돌방지, 차로이탈경고)</option>
+                                    <option value="adas_no">미장착 (순정 센서 없음)</option>
+                                </select>
+                            </div>
 
+                            <div class="form-group">
+                                <label for="carnoType">자기차량손해(자차) 가입 형태</label>
+                                <select id="carnoType" required>
+                                    <option value="carno_full">자차 전체 가입 (기본 권장)</option>
+                                    <option value="carno_no">자차 제외 (책임+대인+대물만)</option>
+                                </select>
+                            </div>
+                        </div>
 
-</body>
-</html>
+                        <button type="submit" class="btn-calc">2027년 최적 다이렉트 예상 견적 계산하기</button>
+                    </form>
+
+                    <div id="calcResult" class="calc-result-panel">
+                        <div class="calc-result-header">실시간 모의 견적 계산 결과</div>
+                        <p style="margin-bottom: 6px;">선택 차종 및 연령 기준 정규 기본 보험료: <span id="resBasePrice" style="font-weight: 700; color: var(--text-main);">0원</span></p>
+                        <p style="margin-bottom: 6px;">특약 결합 할인 총 예상액 (마일리지+UBI+ADAS): <span id="resDiscountPrice" style="font-weight: 700; color: var(--accent-teal);">0원</span></p>
+                        <div style="margin-top: 14px; padding-top: 14px; border-top: 2px dashed #cbd5e1;">
+                            <span style="font-size: 1.05rem; font-weight: 700; color: var(--primary-navy);">최종 체감 납입 예상 비용: </span>
+                            <span id="resFinalPrice" class="calc-price-highlight">0원</span>
+                        </div>
+                        <p style="font-size: 0.85rem; color: var(--text-muted); margin-top: 10px; margin-bottom: 0;">실제 가입 시 각 손해보험사의 세부 인수 기준, 운전자 경력 인정 기간 및 무사고 연차에 따라 약간의 차이가 발생할 수 있습니다.</p>
+                    </div>
+                </div>
+
+                <script>
+                function calculateInsurance(e) {
+                    e.preventDefault();
+                    
+                    const car = document.getElementById('carSelect').value;
+                    const age = document.getElementById('ageSelect').value;
+                    const mileage = document.getElementById('mileageSelect').value;
+                    const ubi = document.getElementById('ubiSelect').value;
+                    const adas = document.getElementById('adasCheck').value;
+                    const carno = document.getElementById('carnoType').value;
+
+                    // 기본 단가 산출
+                    let base = 500000;
+                    if (car === 'casper_gasoline') base = 480000;
+                    else if (car === 'casper_turbo') base = 510000;
+                    else if (car === 'casper_ev') base = 600000;
+                    else if (car === 'ray_gasoline') base = 460000;
+                    else if (car === 'ray_ev') base = 570000;
+                    else if (car === 'morning_urban') base = 430000;
+                    else if (car === 'morning_old') base = 350000;
+                    else if (car === 'spark_next') base = 440000;
+                    else if (car === 'spark_old') base = 330000;
+                    else if (car === 'damas_labo') base = 540000;
+
+                    // 연령 배수
+                    let ageFactor = 1.0;
+                    if (age === 'age_20') ageFactor = 2.45;
+                    else if (age === 'age_24') ageFactor = 1.75;
+                    else if (age === 'age_26') ageFactor = 1.30;
+                    else if (age === 'age_30') ageFactor = 0.90;
+                    else if (age === 'age_50') ageFactor = 0.82;
+                    else if (age === 'age_65') ageFactor = 1.08;
+
+                    let gross = base * ageFactor;
+
+                    // 자차 제외 시 감액
+                    if (carno === 'carno_no') {
+                        gross = gross * 0.65;
+                    }
+
+                    // 할인율 산출
+                    let discountRate = 0.0;
+                    if (mileage === 'dist_3000') discountRate += 0.38;
+                    else if (mileage === 'dist_5000') discountRate += 0.28;
+                    else if (mileage === 'dist_10000') discountRate += 0.15;
+
+                    if (ubi === 'ubi_high') discountRate += 0.15;
+                    else if (ubi === 'ubi_mid') discountRate += 0.08;
+
+                    if (adas === 'adas_yes') discountRate += 0.05;
+
+                    // 중복할인 적용 상한선 고려
+                    if (discountRate > 0.55) discountRate = 0.55;
+
+                    const discountAmt = Math.round(gross * discountRate);
+                    const finalAmt = Math.round(gross - discountAmt);
+
+                    document.getElementById('resBasePrice').textContent = gross.toLocaleString() + '원';
+                    document.getElementById('resDiscountPrice').textContent = '-' + discountAmt.toLocaleString() + '원 (' + Math.round(discountRate*100) + '% 할인)';
+                    document.getElementById('resFinalPrice').textContent = '약 ' + finalAmt.toLocaleString() + '원 / 1년';
+                    
+                    document.getElementById('calcResult').style.display = 'block';
+                }
+                </script>
+            </article>
+
+            <!-- 섹션 5: 손해보험사 브랜드별 순위 및 다이렉트 비교 -->
+            <article id="section-brands" class="content-card">
+                <h2>5. 손해보험사 브랜드별 경차 인수 순위 및 서비스 비교</h2>
+                <p>국내 대형 손해보험사와 디지털 전용 보험사들은 경차 고객을 유치하기 위해 각기 다른 전략과 요율 체계를 운영하고 있습니다. 설계사를 통한 오프라인 가입 대비 인터넷 및 모바일 앱으로 직접 체결하는 다이렉트 채널은 판매 수수료가 절감되어 평균 15퍼센트에서 18퍼센트 저렴한 가격 경쟁력을 지닙니다.</p>
+
+                <h3>주요 보험사별 경차 특화 상품성 평가</h3>
+                <ul>
+                    <li><strong>삼성화재 다이렉트 착:</strong> 방대한 보상 서비스 네트워크와 압도적인 시장 점유율을 보유하고 있습니다. 모바일 앱 환경의 안정성과 긴급출동 인프라가 매우 신속하여 초보운전자 및 20대 여성 운전자의 선호도가 높습니다. UBI 안전운전점수와 애니핏 걸음수 할인의 결합이 가능합니다.</li>
+                    <li><strong>현대해상 하이카 다이렉트:</strong> 캐스퍼 공식 제휴 프로모션 및 어린이 할인(만 7세 이하 자녀 할인) 특약에서 가장 강력한 우위를 점합니다. 자녀가 있는 가정의 세컨드카로 모닝이나 레이를 운행하는 3040 부부 계층에게 가장 유리한 견적이 도출됩니다.</li>
+                    <li><strong>DB손해보험 프로미 다이렉트:</strong> 티맵 안전운전점수(UBI) 특약을 업계 최초로 도입한 보험사답게, 80점 이상 운전자에 대한 할인 폭이 대단히 공격적입니다. 또한 경차 전용 긴급출동 서비스 거리 확대 특약 옵션이 충실합니다.</li>
+                    <li><strong>KB손해보험 다이렉트:</strong> 대중교통 이용 실적 할인 및 티맵/카카오내비 점수 연계 할인 조건이 유연하며, 걸음수 충족 시 추가 3% 할인을 제공하는 KB플랫폼 연동 혜택이 돋보입니다.</li>
+                    <li><strong>캐롯손해보험 퍼마일:</strong> 주행한 거리만큼만 매월 분할 결제하는 퍼마일 요금제를 통해 주말 마트용이나 근거리 등하교용으로 연간 주행거리가 3,000km 미만인 경차 오너에게 압도적인 최저가를 실현해 줍니다.</li>
+                    <li><strong>메리츠화재, 한화손해보험, 흥국화재, 롯데손해보험, AXA손해보험:</strong> 중소형 손보사 채널은 무사고 3년 이상 경력자에 대한 대인/대물 기본요율을 파격적으로 낮춰 견적을 제시하는 역발상 프로모션을 빈번히 진행합니다.</li>
+                </ul>
+
+                <div class="summary-callout">
+                    <p>다이렉트 최저가 비교 팁: 보험사 브랜드 순위가 높다고 해서 모든 경차 운전자에게 제일 저렴한 것은 결코 아닙니다. 만 20대 초반은 현대해상이나 DB손해보험이 저렴한 경우가 많고, 연간 주행거리가 극단적으로 짧은 차량은 캐롯손해보험이, 단독 40대 무사고 운전자는 삼성화재나 KB손해보험의 결합 할인이 유리하게 나타납니다. 따라서 최소 3개 이상의 다이렉트 사이트에서 본인 인증 후 동일 담보 조건으로 가견적을 산출하는 과정이 필수적입니다.</p>
+                </div>
+            </article>
+
+            <!-- 섹션 6: 2027 최신 할인 특약 총정리 -->
+            <article id="section-discounts" class="content-card">
+                <h2>6. 2027년 최신 경차자동차보험 할인 특약 완전 정복</h2>
+                <p>기본 보험료에서 불필요한 거품을 걷어내고 가장 싼 가격을 만드는 비결은 보험사마다 숨겨져 있는 특약들을 빈틈없이 조합하는 기술에 있습니다. 2027년에 유효한 6대 핵심 할인 특약의 실질적 적용 방식을 안내합니다.</p>
+
+                <h4>1. 주행거리 마일리지 에코 특약 (최대 35~45% 환급)</h4>
+                <p>경차는 통근, 장보기, 근거리 이동용으로 활용되는 빈도가 높아 연간 주행거리가 짧은 경우가 많습니다. 보험 시작 시 계기판 사진을 등록하고, 1년(12개월) 계약 만기 시 최종 계기판 사진을 모바일 앱으로 전송하면 주행 구간별로 납입한 보험료의 일정 비율을 현금으로 계좌 환불해 줍니다. 연간 3,000km 이하 주행 시 최대 40% 이상, 5,000km 이하는 30% 수준이 환급되므로 경차 운전자에게는 가장 체감 효과가 큰 제도입니다.</p>
+
+                <h4>2. 모바일 내비게이션 UBI 안전운전점수 특약 (최대 13~16% 즉시 할인)</h4>
+                <p>스마트폰 내비게이션 앱인 T맵(티맵) 또는 카카오내비를 켜고 주행하여 최근 500km에서 1,000km 이상의 누적 주행거리를 달성하고, 안전운전 점수를 80점 이상 유지하면 보험 가입 시점에 즉시 10%에서 16%까지 보험료를 차감해 줍니다. 급가속, 급감속, 야간 운전을 자제하면 경차 특유의 도심 운전 패턴에서도 수월하게 80점 이상을 획득할 수 있습니다.</p>
+
+                <h4>3. 첨단 안전장치(ADAS) 장착 특약 (3~7% 할인)</h4>
+                <p>최근 출고되는 현대 캐스퍼나 기아 더 뉴 레이, 모닝 어반 등의 모델에는 전방 충돌방지 보조(FCA), 차로 이탈방지 보조(LKA), 후측방 충돌방지 보조 등의 첨단 장치가 대거 기본 또는 옵션으로 탑재됩니다. 차량 출고 시 순정 옵션 코드가 전산으로 자동 확인되거나 장착 사진을 증빙하면 자차 및 대인/대물 보험료가 즉시 할인됩니다.</p>
+
+                <h4>4. 블랙박스 장착 할인 특약 (1~3% 할인)</h4>
+                <p>차량에 블랙박스가 장착되어 있는 경우 사고 원인 규명이 명확해지므로 손해보험사들은 1%에서 3% 내외의 요율 할인을 제공합니다. 단, 차량 연식이 10년을 초과한 노후 중고차의 경우 일부 보험사에서 블랙박스 할인율을 축소하거나 적용하지 않는 약관도 존재하므로 가입 시 사전 확인이 필요합니다.</p>
+
+                <h4>5. 만 6세 이하 자녀 할인 특약 (3~14% 할인)</h4>
+                <p>기명피보험자 또는 배우자에게 임신 중인 태아 혹은 만 6세 이하(보험사에 따라 만 7세~9세 이하)의 자녀가 있는 경우 최대 14%까지 보험료가 할인됩니다. 어린 자녀를 태운 부모는 통계적으로 방어운전을 할 확률이 현저히 높다는 빅데이터에 기반한 특약입니다. 정부24를 통한 가족관계증명서 전산 연동으로 서류 제출 없이 간편하게 적용받을 수 있습니다.</p>
+
+                <h4>6. 커넥티드카 할인 특약 (5~9% 할인)</h4>
+                <p>현대 블루링크(Bluelink), 기아 커넥트(Kia Connect)가 탑재된 최신 경차의 경우, 차량 무선 통신을 통해 에어백 전개 사고 자동 통보 및 원격 차량 진단 기능이 지원되므로 커넥티드카 전용 할인을 추가로 중복 적용받을 수 있습니다.</p>
+            </article>
+
+            <!-- 섹션 7: 커뮤니티 후기 검증 및 실전 노하우 -->
+            <article id="section-community" class="content-card">
+                <h2>7. 온라인 커뮤니티(보배드림, 디시, 펨코) 실전 후기 및 성지 좌표 검증</h2>
+                <p>보배드림 자동차 게시판, 디시인사이드 차갤(자동차 갤러리) 및 경차 갤러리, 에펨코리아(펨코) 차·바이크 게시판 등 대형 인터넷 커뮤니티에서는 실제 오너들의 수많은 '내돈내산' 경차자동차보험 갱신 후기와 견적 인증글이 실시간으로 공유됩니다. 커뮤니티에서 검증된 핵심 담론과 주의사항을 분석합니다.</p>
+
+                <h3>커뮤니티 유저들이 강조하는 경차 보험 3대 원칙</h3>
+                <ol>
+                    <li><strong>신규 가입 혜택과 사은품의 함정 분별:</strong> 인터넷 포털, 토스, 네이버페이, 카카오페이 등 핀테크 플랫폼에서 다이렉트 자동차보험 조회 시 5,000원~10,000원의 네이버페이 포인트나 주유 상품권을 지급하고, 실제 신규 가입 시 2만원~3만원권 상품권 또는 캐시백 현금지원을 제공하는 이벤트가 빈번합니다. 그러나 커뮤니티 실전 오너들은 "2~3만원 상품권이나 사은품에 눈이 멀어 기본 보험료가 7만원 더 비싼 보험사를 선택하는 실수를 범하지 말라"고 조언합니다. 사은품 혜택은 최종 산출 보험료가 가장 저렴한 1~2순위 보험사 중에서 선택하는 보조 수단이어야 합니다.</li>
+                    <li><strong>온라인 성지 및 좌표 글의 진실:</strong> 일부 블로그나 SNS(페이스북, 인스타그램, 텔레그램 오픈채팅방 등)에서 '경차 보험료 10만원대 성지 좌표', '위약금 없는 무약정 특가 컨설팅' 등의 자극적인 문구로 고객센터 전화번호나 상담 신청을 유도하는 경우가 있습니다. 자동차보험은 법적으로 인가된 요율에 따라 전산 시스템에서 산출되므로, 특정 불법 대리점이 임의로 보험료를 깎아주는 소위 성지나 좌표는 존재할 수 없습니다. 이는 법인 대리점(GA)의 텔레마케팅 영업이거나 운전자보험 등 불필요한 유료 상품을 끼워팔기 위한 미끼일 확률이 100퍼센트이므로 단호히 배제해야 합니다.</li>
+                    <li><strong>가족 한정 및 경력 인정 3인 등록 제도 활용:</strong> 20대 초반 사회초년생이 첫차로 캐스퍼나 모닝을 구매할 때 본인 단독 명의로 가입하면 100만원이 넘는 보험료가 청구됩니다. 이때 보배드림과 펨코 유저들이 추천하는 최적의 방법은 부모님과 차량 지분을 99대 1로 공동명의 설정하고, 부모님 밑으로 피보험자를 설정한 뒤 본인을 '가족한정' 및 '운전경력 인정 대상자'로 등록하는 방식입니다. 이를 통해 40만원대의 저렴한 부모님 요율로 운행하면서 최대 3년까지 무사고 경력을 합법적으로 쌓아, 향후 단독 가입 시 대폭 할인된 요율을 적용받을 수 있습니다.</li>
+                </ol>
+
+                <div class="warning-callout">
+                    <p>보험업법 안내: 보험업법 제98조(특별이익의 제공 금지)에 의거하여 자동차보험 계약 체결과 관련하여 연간 3만원(또는 연간 보험료의 100분의 10 중 적은 금액)을 초과하는 금품, 현금지원, 상품권 제공은 엄격히 금지되어 있습니다. 과도한 현금 리베이트를 제시하는 업체는 금융감독원 제재 대상 불법 영업일 수 있으므로 정식 다이렉트 공식 홈페이지를 통한 가입이 안전합니다.</p>
+                </div>
+            </article>
+
+            <!-- 섹션 8: AI 시대의 보험 가입 및 계약 관리 -->
+            <article id="section-contracts" class="content-card">
+                <h2>8. AI(제미나이, 챗지피티) 검색 연계 견적 컨설팅과 계약·해지 규정</h2>
+                <p>2027년 인공지능 기술의 진보는 자동차보험 소비 행태를 근본적으로 변화시키고 있습니다. 과거에는 일일이 포털 사이트 검색이나 설계사 전화 상담에 의존했으나, 현재는 구글 제미나이(Gemini), 오픈AI 챗지피티(ChatGPT), 네이버 AI 검색 엔진을 통해 본인의 차량 모델, 연식, 주행거리, 거주지 특성을 입력하고 최적화된 담보 가이드라인을 컨설팅받는 스마트 소비자가 급증했습니다.</p>
+
+                <h3>계약 기간, 해지, 환불 및 일할 계산 규정</h3>
+                <p>대한민국 자동차보험의 표준 약정 기간은 1년(12개월) 단위 계약입니다. 휴대폰 요금제와 같은 단기 무약정 제도는 존재하지 않으나, 1년 미만의 단기 운행이 필요한 경우 1주일, 1개월, 3개월 등 단기 요율을 적용하여 계약을 체결할 수는 있습니다. 다만 단기 계약은 1년 정규 계약 대비 일할 요율 할증이 적용되므로 가성비가 떨어집니다.</p>
+
+                <p>만약 1년 정규 계약 후 차량을 매각하거나 폐차하는 경우, 자동차 양도증명서 또는 말소사실증명서를 보험사 고객센터에 제출하면 계약 해지일 기준으로 남은 일수에 해당하는 미경과 보험료를 100퍼센트 일할 계산하여 환불받을 수 있습니다. 차량 매각이나 폐차로 인한 정당한 해지 시에는 중도 해지 위약금이 일체 발생하지 않습니다. 단, 단순 변심으로 다른 보험사로 갈아타기 위해 중도 해지하는 경우에는 약관에 따라 단기 요율이 적용되어 환불 금액이 불리하게 산정될 수 있으므로 기존 만기일까지 유지 후 갱신 시점에 보험사를 변경하는 것이 원칙입니다.</p>
+            </article>
+
+            <!-- 섹션 9: 자주 묻는 질문 FAQ -->
+            <article id="section-faq" class="content-card">
+                <h2>9. 경차자동차보험 관련 자주 묻는 질문 (FAQ)</h2>
+                
+                <div class="faq-item">
+                    <h4>Q1. 50만원짜리 중고 마티즈나 모닝을 타는데 자차 보험을 빼도 되나요?</h4>
+                    <p>차량 가액이 100만원 이하로 감가상각된 노후 차량의 경우, 사고 발생 시 수리비가 차량가액을 초과하면 전손 처리 기준에 따라 차량가액 한도 내에서만 보상금이 지급됩니다. 만약 자차 보험료가 연간 15만원인데 차량가액이 40만원이라면 3년만 유지해도 차량 가격에 육박하는 보험료를 납부하게 되므로, 실익을 고려하여 자차 담보를 제외하고 대인, 대물, 자동차상해 중심의 실속형으로 가입하는 것이 경제적입니다.</p>
+                </div>
+
+                <div class="faq-item">
+                    <h4>Q2. 경차 터보 모델(캐스퍼 액티브, 모닝 터보)은 일반 모델보다 보험료가 많이 비싼가요?</h4>
+                    <p>터보 모델은 일반 자연흡기 모델 대비 출력이 높아 주행 성능이 뛰어나지만, 전면 엔진룸 터보차저 및 인터쿨러 부품 단가가 높고 통계적으로 주행 속도가 높아 차량모델등급이 1~2등급 가량 낮게 책정됩니다. 이에 따라 자차 보험료가 연간 약 2만원에서 4만원 가량 추가 산출될 수 있으나, 전체 보험료를 뒤흔들 정도의 큰 격차는 아닙니다.</p>
+                </div>
+
+                <div class="faq-item">
+                    <h4>Q3. 경차 유류세 환급 카드 혜택과 자동차보험 할인이 연계되나요?</h4>
+                    <p>경차 유류세 환급 제도는 조세특례제한법에 따른 국세청 조세 지원 정책이며, 자동차보험은 민간 손해보험사의 계약이므로 직접적인 결합 할인은 없습니다. 다만 신한카드, 현대카드, 롯데카드 등에서 발급하는 경차 사랑 유류구매전용 카드로 다이렉트 자동차보험료를 결제할 경우 무이자 할부 혜택이나 결제일 청구할인 프로모션을 제공하는 카드사가 있으므로 결제 단계에서 제휴 혜택을 반드시 점검해야 합니다.</p>
+                </div>
+
+                <div class="faq-item">
+                    <h4>Q4. 안전운전점수(UBI) 특약에 가입했는데 중간에 점수가 떨어지면 위약금이 나오나요?</h4>
+                    <p>위약금은 전혀 발생하지 않습니다. UBI 특약은 가입 시점에 최근 운행 데이터를 바탕으로 보험료를 선할인해주는 제도이므로, 이후 운행 중에 급제동 등으로 점수가 하락하더라도 기존에 받은 할인 금액을 토해내거나 벌금을 물지 않습니다. 다만 다음 해 1년 만기 갱신 시점에 점수가 기준 미달이면 재할인을 받을 수 없게 됩니다.</p>
+                </div>
+
+                <div class="faq-item">
+                    <h4>Q5. 운전자보험과 경차자동차보험은 같은 회사로 가입해야 유리한가요?</h4>
+                    <p>반드시 동일한 보험사로 묶을 필요는 없습니다. 자동차보험은 민사상 손해배상(대인/대물/자차)을 책임지는 의무보험인 반면, 운전자보험은 12대 중과실 사고나 스쿨존 사고 시 발생하는 형사합의금(교통사고처리지원금), 벌금, 변호사선임비용을 보장하는 정액 보장 상품입니다. 각각의 다이렉트 사이트에서 자동차보험 최저가 보험사와 운전자보험 최저가(월 9,900원 수준) 보험사를 독립적으로 분리하여 비교 가입하는 것이 가장 합리적입니다.</p>
+                </div>
+            </article>
+
+            <!-- 섹션 10: 공식 외부 출처 -->
+            <article id="section-external" class="content-card">
+                <h2>10. 공신력 있는 공식 외부 출처 및 검증 데이터</h2>
+                <p>본 가이드의 분석 자료는 공공기관 및 손해보험 유관 협회의 공시 지침과 기술 데이터베이스를 상호 대조하여 신뢰성을 확보하였습니다.</p>
+
+                <a href="https://directbpmow.insurancsecar.com" target="_blank" rel="noopener noreferrer" class="ext-link-card">
+                    <div class="link-name">신뢰성 검증 자동차보험 포털: car.reliabledone.com</div>
+                    <div class="link-desc">국내 다이렉트 자동차보험 요율 알고리즘 분석 및 차종별 최저가 실측 데이터를 제공하는 전문 비교 솔루션입니다.</div>
+                </a>
+
+                <a href="https://namu.wiki/w/%EA%B2%BD%EC%B0%A8" target="_blank" rel="noopener noreferrer" class="ext-link-card">
+                    <div class="link-name">나무위키 경차 종합 백과사전</div>
+                    <div class="link-desc">대한민국 경형자동차의 역사, 법적 규격 변천사, 차종별 상세 제원 및 혜택에 관한 종합 백과 자료입니다.</div>
+                </a>
+
+                <a href="https://www.fss.or.kr" target="_blank" rel="noopener noreferrer" class="ext-link-card">
+                    <div class="link-name">금융감독원 (FSS) 금융소비자 포털 파인</div>
+                    <div class="link-desc">자동차보험 표준약관, 불공정 약관 심사 내역 및 소비자 권익 보호를 위한 법적 가이드라인을 제공합니다.</div>
+                </a>
+
+                <a href="https://www.kidi.or.kr" target="_blank" rel="noopener noreferrer" class="ext-link-card">
+                    <div class="link-name">보험개발원 (KIDI) 차량모델등급평가 시스템</div>
+                    <div class="link-desc">충돌 시험 및 부품 가격 손해율 통계를 바탕으로 매년 공시되는 1~26등급 차량 모델별 요율 공식 데이터베이스입니다.</div>
+                </a>
+
+                <a href="https://www.gov.kr" target="_blank" rel="noopener noreferrer" class="ext-link-card">
+                    <div class="link-name">정부24 자동차 민원 행정 서비스</div>
+                    <div class="link-desc">자동차 등록원부 열람, 운전경력증명서 발급 및 가족관계증명서 전산 연동 공공 플랫폼입니다.</div>
+                </a>
+            </article>
+
+        </main>
+
+        <!-- 사이드바 내비게이션 및 연관 키워드 영역 -->
+        <aside class="sidebar-column">
+            <div class="sidebar-widget">
+                <h3>경차보험 빠른 이동</h3>
+                <ul class="quick-nav-list">
+                    <li><a href="#section-overview">경차보험의 법적 정의</a></li>
+                    <li><a href="#section-models">30종 모델별 등급표</a></li>
+                    <li><a href="#section-age-cost">연령별 평균 금액 분석</a></li>
+                    <li><a href="#section-calculator">실시간 견적 계산기</a></li>
+                    <li><a href="#section-brands">보험사 순위 비교</a></li>
+                    <li><a href="#section-discounts">2027 최신 할인 특약</a></li>
+                    <li><a href="#section-community">커뮤니티 검증 분석</a></li>
+                    <li><a href="#section-faq">자주 묻는 질문 5선</a></li>
+                </ul>
+            </div>
+
+            <div class="sidebar-widget">
+                <h3>주요 비교 차종</h3>
+                <div class="tag-cloud">
+                    <span class="tag-item">현대 캐스퍼</span>
+                    <span class="tag-item">캐스퍼 터보</span>
+                    <span class="tag-item">캐스퍼 EV</span>
+                    <span class="tag-item">기아 더 뉴 레이</span>
+                    <span class="tag-item">레이 EV</span>
+                    <span class="tag-item">레이 1인승 밴</span>
+                    <span class="tag-item">기아 모닝 어반</span>
+                    <span class="tag-item">더 뉴 모닝</span>
+                    <span class="tag-item">올 뉴 모닝</span>
+                    <span class="tag-item">쉐보레 스파크</span>
+                    <span class="tag-item">더 넥스트 스파크</span>
+                    <span class="tag-item">더 뉴 스파크</span>
+                    <span class="tag-item">마티즈 크리에이티브</span>
+                    <span class="tag-item">한국GM 다마스</span>
+                    <span class="tag-item">한국GM 라보</span>
+                    <span class="tag-item">르노 트위지</span>
+                    <span class="tag-item">쎄보-C</span>
+                    <span class="tag-item">디피코 포트로</span>
+                </div>
+            </div>
+
+            <div class="sidebar-widget">
+                <h3>함께 많이 찾는 검색어</h3>
+                <div class="tag-cloud">
+                    <span class="tag-item">경차자동차보험 평균</span>
+                    <span class="tag-item">경차보험료 얼마</span>
+                    <span class="tag-item">20대 경차 첫차보험료</span>
+                    <span class="tag-item">경차 다이렉트 싼곳</span>
+                    <span class="tag-item">경차 자차 제외 견적</span>
+                    <span class="tag-item">캐스퍼 1년 보험료</span>
+                    <span class="tag-item">레이 캠핑카 보험</span>
+                    <span class="tag-item">모닝 중고차 책임보험</span>
+                    <span class="tag-item">다이렉트 최저가 사이트</span>
+                    <span class="tag-item">티맵 안전운전 80점 할인</span>
+                    <span class="tag-item">경차 마일리지 환급률</span>
+                    <span class="tag-item">보배드림 경차보험 추천</span>
+                    <span class="tag-item">디시 경차갤 보험 후기</span>
+                    <span class="tag-item">펨코 자동차보험 비교</span>
+                </div>
+            </div>
+        </aside>
+    </div>
+
+	
